@@ -49,6 +49,9 @@ This Python script processes CSV logfiles from a specified directory, extracts k
 1. **Prepare your logfiles:**  
    Place all CSV logfiles to be analyzed in the directory specified by `PFAD` (default: `"2/"`).
 
-2. **Run the script:**  
+2. **Fill the blacklist:**  
+  Fill the blacklist with usernames of admins, staff etc. This is optional.
+
+3. **Run the script:**  
    ```bash
    python your_script_name.py
