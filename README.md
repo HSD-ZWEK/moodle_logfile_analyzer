@@ -36,7 +36,7 @@ This Python script processes CSV logfiles from a specified directory, extracts k
      - Counts unique registered users (excluding those in the `BLACKLIST` and with usernames longer than 4 characters).
 
 3. **Output:**  
-   For each logfile, writes a row to `orca.csv` with:
+   For each logfile, writes a row to `export.csv` with:
    - Earliest access date
    - Course name
    - Number of unique guest IPs
