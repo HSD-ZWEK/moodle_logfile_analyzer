@@ -9,7 +9,7 @@ This Python script processes CSV logfiles from a specified directory, extracts k
 - **Processes all CSV logfiles in a given directory**
 - **Handles German month names and converts them to English for date parsing**
 - **Extracts the earliest access date, course name, unique guest IPs, and unique registered users**
-- **Outputs a summary CSV file (`orca.csv`) with the results**
+- **Outputs a summary CSV file (`export.csv`) with the results**
 - **Skips malformed or incomplete rows gracefully**
 
 ---
@@ -17,7 +17,7 @@ This Python script processes CSV logfiles from a specified directory, extracts k
 ## File Structure
 
 - **Input Directory:** The script expects logfiles in the directory specified by the `PFAD` variable (default: `"2/"`).
-- **Output File:** The summary is written to `orca.csv` in the current working directory.
+- **Output File:** The summary is written to `export.csv` in the current working directory.
 
 ---
 
