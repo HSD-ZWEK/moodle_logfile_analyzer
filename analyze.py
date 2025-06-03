@@ -57,7 +57,7 @@ def verarbeite_datei(dateipfad):
     return fruehestes_datum, kursname, len(gaeste_ips), len(nutzer)
 
 def main():
-    with open('orca.csv', 'w', encoding='utf-8', newline='') as csvfile:
+    with open('export.csv', 'w', encoding='utf-8', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         for dateiname in os.listdir(PFAD):
             dateipfad = os.path.join(PFAD, dateiname)
